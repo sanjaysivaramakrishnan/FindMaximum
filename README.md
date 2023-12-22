@@ -31,14 +31,31 @@ def max_marks(marks):<br>
 
 ii)	# To find the maximum marks using the list method max().
 ```Python
-
-
+''' 
+Program to find the maximum marks using the list method max().<br>
+Developed by: Sanjay sivaramakrishnan<br>
+RegisterNumber: 23013798<br>
+'''<br>
+def max_marks(marks):<br>
+     return max(marks)<br>
+<br>
 
 ```
 
 iii) # To find the maximum marks without using builtin functions.
 ```Python
-
+''' 
+Program to the maximum marks without using builtin functions.<br>
+Developed by: Sanjay sivaramakrishnan
+RegisterNumber: 23013798
+'''
+def max_marks(marks):<br>
+    max=0;<br>
+    for i in marks:<br>
+        if(i>max):<br>
+            max=i<br>
+    return max;<br>
+     
 
 
 ```
@@ -46,6 +63,10 @@ iii) # To find the maximum marks without using builtin functions.
 ![output](./img/max_marks1.jpg) 
 
 ## Output:
+![image](https://github.com/sanjaysivaramakrishnan/FindMaximum/assets/151629616/d46162da-151a-4379-a20d-2d0d94e682c5)
+![image](https://github.com/sanjaysivaramakrishnan/FindMaximum/assets/151629616/626b58d1-92b6-40f6-9aac-4c1f73f6cca1)
+![image](https://github.com/sanjaysivaramakrishnan/FindMaximum/assets/151629616/4a62164f-66d3-4ffd-b25a-44e04a6acab3)
+
 
 ## Result:
 Thus the program to find the maximum of given numbers from the list is written and verified using python programming.
