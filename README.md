@@ -13,17 +13,17 @@ To write a program to find the maximum of a list of numbers.
 i)	# To find the maximum of marks using the list method sort.
 ```Python
 ''' 
-Program to mark the maximum of marks using the list method sort<br>
-Developed by: Sanjay siavaramakrishnan<br>
-RegisterNumber: 23013798<br>
-'''<br>
-def max_marks(marks):<br>
-    marks.sort()<br>
-    max=marks[0];<br>
-    for i in marks:<br>
-        if(i>max):<br>
-            max=i<br>
-    return max;<br>
+Program to mark the maximum of marks using the list method sort
+Developed by: Sanjay siavaramakrishnan
+RegisterNumber: 23013798
+'''
+def max_marks(marks):
+    marks.sort()
+    max=marks[0];
+    for i in marks:
+        if(i>max):
+            max=i
+    return max;
      
 
 
@@ -32,29 +32,29 @@ def max_marks(marks):<br>
 ii)	# To find the maximum marks using the list method max().
 ```Python
 ''' 
-Program to find the maximum marks using the list method max().<br>
-Developed by: Sanjay sivaramakrishnan<br>
-RegisterNumber: 23013798<br>
-'''<br>
-def max_marks(marks):<br>
-     return max(marks)<br>
-<br>
+Program to find the maximum marks using the list method max().
+Developed by: Sanjay sivaramakrishnan
+RegisterNumber: 23013798
+'''
+def max_marks(marks):
+     return max(marks)
+
 
 ```
 
 iii) # To find the maximum marks without using builtin functions.
 ```Python
 ''' 
-Program to the maximum marks without using builtin functions.<br>
+Program to the maximum marks without using builtin functions.
 Developed by: Sanjay sivaramakrishnan
 RegisterNumber: 23013798
 '''
-def max_marks(marks):<br>
-    max=0;<br>
-    for i in marks:<br>
-        if(i>max):<br>
-            max=i<br>
-    return max;<br>
+def max_marks(marks):
+    max=0;
+    for i in marks:
+        if(i>max):
+            max=i
+    return max;
      
 
 
